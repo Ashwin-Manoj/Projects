@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* font-family: "JetBrains Mono"; */
+  /* border: solid 0.5px #000; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.title {
+  text-align: center;
+  font-weight: 200;
+  border-bottom: solid 0.5px;
+}
+
+.name {
+  text-align: center;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7%;
+  margin-top: 5px;
+}
+
+.contact h4 {
+  font-weight: 400;
+  font-size: 12.5px;
+}
+
+.contact h4 a {
+  text-decoration: none;
+  color: #0496ff;
+}
+
+.contact h4 a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.description p {
+  margin: 10px 30px 20px 30px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+main {
+  margin: 0px 60px;
+}
+
+.workexp-des {
+  margin: 7px 0px;
+}
+.font-workexp {
+  font-weight: 100;
+}
+
+.workdate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.workexp-des ul,
+.projects-ul {
+  margin-left: 40px;
+}
+
+.main-heading {
+  border-bottom: solid 2px #000;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  margin-top: 30px;
+}
+
+.spacing {
+  margin: 10px 0px;
+}
